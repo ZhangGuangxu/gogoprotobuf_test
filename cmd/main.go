@@ -4,7 +4,7 @@ import (
 	"log"
 	"sync"
 
-	"github.com/ZhangGuangxu/gogoprotobuf_test/internal/gofast_out/tutorial"
+	"github.com/ZhangGuangxu/gogoprotobuf_test/internal/gogoslick_out/tutorial"
 
 	proto "github.com/gogo/protobuf/proto"
 )
