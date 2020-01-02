@@ -23,6 +23,10 @@ proto:
 run: build
 	./cmd/output/mac/test
 
+errcheck:
+	go get github.com/kisielk/errcheck
+	errcheck ./cmd/...
+
 fmt:
 	$(GOFMT) -s -l -w $(GOFILES)
 
