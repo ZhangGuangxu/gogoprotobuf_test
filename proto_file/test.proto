@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package tutorial;
+
+enum FOO { 
+  A = 0;
+  B = 1;
+  C = 2;
+  X = 17;
+};
+
+message Test {
+  string label = 1;
+  int32 type = 2;
+  repeated int64 reps = 3;
+}
