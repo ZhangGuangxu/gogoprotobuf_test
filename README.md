@@ -33,7 +33,7 @@ go install github.com/gogo/protobuf/gogoproto
 
 ### compile proto files
 
--- To generate the code of test.proto
+- To generate the code of test.proto
 
 ```
 mkdir -p ./internal/gogoslick_out/tutorial
